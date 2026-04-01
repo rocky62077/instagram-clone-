@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: #fafafa;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#feed {
+  width: 300px;
+  margin: auto;
+}
+
+.post {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.post img {
+  width: 100%;
+}
